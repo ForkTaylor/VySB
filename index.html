@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VySB</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa&family=M+PLUS+Rounded+1c:wght@300&family=Merienda&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+
+<header class="elements-container">
+    <nav>
+        <img src="" alt="">
+
+        <div class="nav-bar">
+            <ul class="nav-links">
+                <a href="">Inicio</a>
+                <a href="">Salud</a>
+                <a href="">Belleza</a>
+                <a href="">Puntos De Venta</a>
+                <a href="#equipos">Equipo</a>
+                <a href="">Contacto</a>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main-tittle">
+        <div class="main-tittle-brand-name">
+            <h1 class="brand-name" >Verte y Sentirte Bien</h1>
+            <h4 class="sub-title">Proovedores para su Spa</h4>
+            <p class="social-logo"><i class="fab fa-instagram"></i></p> 
+            <p class="social-logo"><i class="fab fa-facebook"></i></p>
+        </div>
+    </div>
+</header>
+
+<section class="section-container" id="equipos">
+    <div class="section-tittle">
+        <h2 class="equipo-estetico-title">Equipo Estético</h2>
+        <h2 class="equipo-medico-title">Equipo Médico</h2>
+    </div>
+
+    <div class="d-flex">
+        <div class="col-6 d-flex justify-content-center">
+            <div class="row-8">
+                <div class="card-equipment">
+                    <img class="card-img-top" src="https://www.verteysentirtebien.com/images/SoUp%20RL.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text sub-title">Some quick example text to build on the card title and make up
+                            the bulk of the card's content.
+                        </p>
+                    </div>
+                </div>
+                <div id="cards" class="card-equipment d-none">
+                    <img class="card-img-top" src="https://www.verteysentirtebien.com/images/SoUp%20RL.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text sub-title">Some quick example text to build on the card title and make up
+                            the bulk of the card's content.
+                        </p>
+                    </div>
+                </div>
+                <div id="cards2" class="card-equipment d-none">
+                    <img class="card-img-top" src="https://www.verteysentirtebien.com/images/SoUp%20RL.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text sub-title">Some quick example text to build on the card title and make up
+                            the bulk of the card's content.
+                        </p>
+                    </div>
+                </div>
+                <div id="cards3" class="card-equipment d-none">
+                    <img class="card-img-top" src="https://www.verteysentirtebien.com/images/SoUp%20RL.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text sub-title">Some quick example text to build on the card title and make up
+                            the bulk of the card's content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 d-flex justify-content-center">
+            <div class="row-8">
+                <div class="card-equipment">
+                    <img class="card-img-top" src="https://www.verteysentirtebien.com/images/SoUp%20RL.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text sub-titles">Some quick example text to build on the card title and make up
+                            the bulk of the card's content.
+                        </p>
+                    </div>
+                </div>
+
+                <button id="viewMoreButton" onclick="viewMore()" class="m-3 p-2 btn btn-success">Ver más</button>
+
+                <div id="cards4" class="card-equipment d-none">
+                    <img class="card-img-top" src="https://www.verteysentirtebien.com/images/SoUp%20RL.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text sub-title">Some quick example text to build on the card title and make up
+                            the bulk of the card's content.
+                        </p>
+                    </div>
+                </div>
+                <div id="cards5" class="card-equipment d-none">
+                    <img class="card-img-top" src="https://www.verteysentirtebien.com/images/SoUp%20RL.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text sub-title">Some quick example text to build on the card title and make up
+                            the bulk of the card's content.
+                        </p>
+                    </div>
+                </div>
+                <div id="cards6" class="card-equipment d-none">
+                    <img class="card-img-top" src="https://www.verteysentirtebien.com/images/SoUp%20RL.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text sub-title">Some quick example text to build on the card title and make up
+                            the bulk of the card's content.
+                        </p>
+                    </div>
+                </div>
+
+                <button id="noViewButton" onclick="noViewMore()" class="m-3 p-3 btn btn-danger d-none">Ver menos</button>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+</div>
+    <script src="./js.js"></script>
+    
+</body>
+</html>
